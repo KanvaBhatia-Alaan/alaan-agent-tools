@@ -1,0 +1,26 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "alaan-agent-tools",
+    "metadata": {
+      "description": "A plugin to help you with your daily tasks like creating PRs, reviewing changes, etc."
+    },
+    "owner": {
+      "name": "Kanva Bhatia",
+      "url": "https://github.com/KanvaBhatia-Alaan"
+    },
+    "plugins": [
+      {
+        "name": "alaan-agent-tools",
+        "description": "A plugin to help you with your daily tasks like creating PRs, reviewing changes, etc.",
+        "version": "1.0.0",
+        "author": {
+          "name": "Kanva Bhatia",
+          "url": "https://github.com/KanvaBhatia-Alaan"
+        },
+        "source": "./",
+        "category": "agent",
+        "homepage": "https://github.com/KanvaBhatia-Alaan/alaan-agent-tools",
+        "tags": ["agent", "agent-tools", "agent-development", "agent-training", "agent-management", "agent-performance", "agent-monitoring", "agent-optimization"]
+      }
+    ]
+  }

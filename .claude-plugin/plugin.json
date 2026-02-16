@@ -1,13 +1,13 @@
 {
-    "name": "alaan-tools",
-    "description": "A plugin to help you with your daily tasks",
+    "name": "alaan-agent-tools",
+    "description": "A plugin to help you with your daily tasks like creating PRs, reviewing changes, etc.",
     "version": "1.0.0",
     "author": {
         "name": "Kanva Bhatia",
         "url": "https://github.com/KanvaBhatia-Alaan"
     },
-    "homepage": "https://github.com/KanvaBhatia-Alaan/alaan-tools",
-    "repository": "https://github.com/KanvaBhatia-Alaan/alaan-tools",
+    "homepage": "https://github.com/KanvaBhatia-Alaan/alaan-agent-tools",
+    "repository": "https://github.com/KanvaBhatia-Alaan/alaan-agent-tools",
     "commands": "./.claude/commands",
     "skills": "./.claude/skills"
 }
