@@ -12,7 +12,7 @@
       {
         "name": "alaan-agent-tools",
         "description": "A plugin to help you with your daily tasks like creating PRs, reviewing changes, etc.",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "author": {
           "name": "Kanva Bhatia",
           "url": "https://github.com/KanvaBhatia-Alaan"
