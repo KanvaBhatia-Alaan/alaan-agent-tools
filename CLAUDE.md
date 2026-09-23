@@ -15,7 +15,8 @@ This is a Claude Code plugin named **alaan-agent-tools** that extends Claude Cod
 │   ├── create-pr.md
 │   └── create-intermediate-pr.md
 ├── skills/           # Reusable skills
-│   └── karpathy-guidelines/
+│   ├── karpathy-guidelines/
+│   └── eli5/
 
 .claude-plugin/
 ├── plugin.json       # Plugin configuration
@@ -64,6 +65,16 @@ Behavioral guidelines for better code quality:
 4. **Goal-Driven Execution**: Define verifiable success criteria
 
 Use this skill when writing, reviewing, or refactoring code.
+
+### eli5
+Explains a topic as a picture-first HTML page published as an artifact:
+1. **Research first**: reads the actual code/files before simplifying
+2. **5-7 beats**: one idea per section, a single everyday metaphor throughout
+3. **Word budget**: headings <=5 words, captions <=15 words, under 150 words of prose
+4. **Self-contained visuals**: inline SVG, mermaid, big emoji scenes - no external images (artifact CSP)
+5. **Glossary strip**: jargon confined to a baby-term -> real-term map at the bottom
+
+Use this skill when the user types `/eli5` or wants a dead-simple visual explanation.
 
 ## Development Notes
 
