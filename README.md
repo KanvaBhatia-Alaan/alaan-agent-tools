@@ -8,6 +8,7 @@ A Claude Code plugin that provides workflow automation commands, coding guidelin
 - **PR Creation**: Streamlined PR creation with automatic commit, push, and GitHub CLI integration
 - **Intermediate Branch Management**: Handle complex merge scenarios for staging/UAT deployments
 - **Coding Guidelines**: Karpathy guidelines skill for better code quality
+- **Visual Explainers**: ELI5 skill that turns any topic into a picture-first HTML artifact
 
 ## Installation
 
@@ -76,6 +77,18 @@ Apply Andrej Karpathy's behavioral guidelines for better code quality:
 - Goal-driven execution (verifiable success criteria)
 
 Use when writing, reviewing, or refactoring code.
+
+### `/eli5`
+Explain anything like you're 5 - as a picture book, not a wall of text.
+
+**What it does:**
+1. Researches the topic first (reads the real code/files, never guesses)
+2. Compresses it into 5-7 beats on one everyday metaphor
+3. Builds an HTML page of huge self-contained visuals (inline SVG, mermaid, emoji scenes)
+4. Enforces a hard word budget - under 150 words of prose, jargon confined to a glossary strip
+5. Publishes it as an artifact and hands back the link
+
+**Use case:** Onboarding someone to a subsystem, or understanding an unfamiliar flow at a glance.
 
 ## Requirements
 
